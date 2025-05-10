@@ -6,8 +6,6 @@ Desenvolver uma aplicação Java utilizando o framework **Spring Boot** com **pe
 
 A aplicação expõe dois endpoints principais (CREATE e READ), acessíveis via **Postman** para simulação de chamadas HTTP. Além disso, foram aplicadas boas práticas visando escalabilidade e manutenção em sistemas maiores.
 
-
-
 ## Iniciação do Projeto - Spring Initializr
 
 A estrutura inicial do projeto foi gerada utilizando o [**Spring Initializr**](https://start.spring.io/).
@@ -192,7 +190,8 @@ Define os endpoints REST.
 
 ## Testes com Postman
 
-### 
+###
+
 https://.postman.co/workspace/My-Workspace~ace83ca3-a705-4856-8f00-2ca41eed6e99/folder/38911868-431f87bd-f6b2-4040-aaf2-df8913466caa?action=share&creator=38911868&ctx=documentation
 
 Os testes foram realizados utilizando o Postman com os endpoints mapeados em `BrinquedoController`.
@@ -234,3 +233,10 @@ http://104.41.50.45:8080
 **URL:** `http://104.41.50.45:8080/Brinquedos/{id}`
 **Método:** `DELETE`
 
+## **_Aplicação em DOCKER_**
+
+```
+https://github.com/Entrega-CheckPoint/JAVA-CP-2-Programacao-Spring-Boot-com-Persistencia-docker
+```
+
+> Aplicação pode estar fora do ar por motivo de outro CheckPoints
