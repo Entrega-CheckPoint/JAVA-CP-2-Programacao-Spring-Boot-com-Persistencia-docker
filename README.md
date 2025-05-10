@@ -6,11 +6,11 @@ Desenvolver uma aplicação Java utilizando o framework **Spring Boot** com **pe
 
 A aplicação expõe dois endpoints principais (CREATE e READ), acessíveis via **Postman** para simulação de chamadas HTTP. Além disso, foram aplicadas boas práticas visando escalabilidade e manutenção em sistemas maiores.
 
+
+
 ## Iniciação do Projeto - Spring Initializr
 
 A estrutura inicial do projeto foi gerada utilizando o [**Spring Initializr**](https://start.spring.io/).
-
-> ![Spring Initializr Print](./img/Spring-Initializr.png)
 
 ### Parâmetros
 
@@ -61,19 +61,6 @@ A estrutura inicial do projeto foi gerada utilizando o [**Spring Initializr**](h
 </details>
 
 <details>
-  <summary><b>Oracle JDBC Driver</b></summary>
-
-```xml
-    	<dependency>
-    		<groupId>com.oracle.database.jdbc</groupId>
-    		<artifactId>ojdbc11</artifactId>
-    		<scope>runtime</scope>
-    	</dependency>
-```
-
-</details>
-
-<details>
   <summary><b>Spring Boot DevTools</b></summary>
 
 ```xml
@@ -89,8 +76,6 @@ A estrutura inicial do projeto foi gerada utilizando o [**Spring Initializr**](h
 
 <details>
   <summary><b>Banco de dados H2</b></summary>
-
-> Adicionado após inicialização para teste 
 
 ```xml
 		<dependency>
@@ -207,17 +192,20 @@ Define os endpoints REST.
 
 ## Testes com Postman
 
+### 
+https://.postman.co/workspace/My-Workspace~ace83ca3-a705-4856-8f00-2ca41eed6e99/folder/38911868-431f87bd-f6b2-4040-aaf2-df8913466caa?action=share&creator=38911868&ctx=documentation
+
 Os testes foram realizados utilizando o Postman com os endpoints mapeados em `BrinquedoController`.
 
 A aplicação será iniciada na porta padrão `8080`:
 
 ```
-http://localhost:8080
+http://104.41.50.45:8080
 ```
 
 ### **POST - Cadastrar Brinquedo**
 
-**URL:** `http://localhost:8080/Brinquedos/Cadastrar`
+**URL:** `http://104.41.50.45:8080/Brinquedos/Cadastrar`
 **Método:** `POST`
 **Body (JSON):**
 
@@ -231,25 +219,18 @@ http://localhost:8080
 }
 ```
 
-![Print do POST](./img/POST.png)
-
 ### **GET - Listar Todos**
 
-**URL:** `http://localhost:8080/Brinquedos`
+**URL:** `http://104.41.50.45:8080/Brinquedos`
 **Método:** `GET`
-
-![Print do GET](./img/GET.png)
 
 ### **GET - Buscar por ID**
 
-**URL:** `http://localhost:8080/Brinquedos/{id}`
+**URL:** `http://104.41.50.45:8080/Brinquedos/{id}`
 **Método:** `GET`
-
-![Print do GET por ID](./img/GET_ID.png)
 
 ### **DELETE - Remover Brinquedo**
 
-**URL:** `http://localhost:8080/Brinquedos/{id}`
+**URL:** `http://104.41.50.45:8080/Brinquedos/{id}`
 **Método:** `DELETE`
 
-![Print do DELETE](./img/DELETE.png)
