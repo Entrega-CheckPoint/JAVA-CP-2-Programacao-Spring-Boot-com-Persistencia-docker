@@ -235,8 +235,4 @@ http://104.41.50.45:8080
 
 ## **_Aplicação em DOCKER_**
 
-```
-https://github.com/Entrega-CheckPoint/JAVA-CP-2-Programacao-Spring-Boot-com-Persistencia-docker
-```
-
-> Aplicação pode estar fora do ar por motivo de outro CheckPoints
+> Aplicação pode estar fora do ar pela entrega de outro CheckPoints
