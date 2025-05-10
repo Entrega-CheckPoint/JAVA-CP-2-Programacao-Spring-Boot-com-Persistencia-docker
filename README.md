@@ -190,9 +190,7 @@ Define os endpoints REST.
 
 ## Testes com Postman
 
-###
-
-https://.postman.co/workspace/My-Workspace~ace83ca3-a705-4856-8f00-2ca41eed6e99/folder/38911868-431f87bd-f6b2-4040-aaf2-df8913466caa?action=share&creator=38911868&ctx=documentation
+### Link para teste -> [**POSTMAN**](https://.postman.co/workspace/My-Workspace~ace83ca3-a705-4856-8f00-2ca41eed6e99/folder/38911868-431f87bd-f6b2-4040-aaf2-df8913466caa?action=share&creator=38911868&ctx=documentation)
 
 Os testes foram realizados utilizando o Postman com os endpoints mapeados em `BrinquedoController`.
 
